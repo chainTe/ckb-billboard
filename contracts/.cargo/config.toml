@@ -1,0 +1,6 @@
+[target.riscv64imac-unknown-none-elf]
+linker = "riscv64-unknown-elf-gcc"
+rustflags = ["-C", "link-arg=-Ttext=0x11000", "-C", "link-arg=-Wl,--Bstatic", "-C", "link-arg=-nostartfiles"]
+
+[build]
+target = "riscv64imac-unknown-none-elf"

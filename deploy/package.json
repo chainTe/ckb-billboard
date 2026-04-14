@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ckb-ccc/ccc": "^1.1.25",
+    "bip32": "^5.0.1",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}

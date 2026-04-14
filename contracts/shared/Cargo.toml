@@ -1,0 +1,11 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+molecule = { version = "0.7", default-features = false }
+ckb-std = "0.15"
+
+[features]
+default = []

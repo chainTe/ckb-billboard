@@ -1,0 +1,2 @@
+export { transfer, transferCompatible, setupInputCell, injectCapacity, payFee, prepareSigningEntries, CellCollector, } from "@ckb-lumos/common-scripts/lib/secp256k1_blake160";
+//# sourceMappingURL=secp256k1-blake160.d.ts.map

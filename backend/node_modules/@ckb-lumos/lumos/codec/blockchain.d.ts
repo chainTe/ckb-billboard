@@ -1,0 +1,3 @@
+export { Uint32, Uint64, Uint128, Uint256, } from "@ckb-lumos/codec/lib/number";
+export { Bytes, BytesOpt, BytesOptVec, BytesVec, Byte32Vec, ScriptOpt, ProposalShortId, UncleBlockVec, TransactionVec, ProposalShortIdVec, CellDepVec, CellInputVec, CellOutputVec, Script, OutPoint, CellInput, CellOutput, CellDep, RawTransaction, Transaction, RawHeader, Header, UncleBlock, Block, BlockV1, CellbaseWitness, WitnessArgs, } from "@ckb-lumos/base/lib/blockchain";
+//# sourceMappingURL=blockchain.d.ts.map

@@ -1,0 +1,14 @@
+[workspace]
+members = ["shared", "billboard-type-script", "billboard-lock-script"]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+overflow-checks = true
+lto = true
+codegen-units = 1
+opt-level = "s"
+strip = true
+panic = "abort"

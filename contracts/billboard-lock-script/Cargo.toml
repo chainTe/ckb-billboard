@@ -1,0 +1,15 @@
+[package]
+name = "billboard-lock-script"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "billboard-lock-script"
+path = "src/main.rs"
+
+[dependencies]
+ckb-std = "0.15"
+shared = { path = "../shared" }
+
+[features]
+default = []
